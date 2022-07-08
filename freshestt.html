@@ -1,0 +1,164 @@
+<! DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  <style>
+	html, body {
+ 	 margin: 0;
+  	 padding: 0;
+  	 border: 0; 
+ 	font-family: "Manrope";
+  	color: white;
+  	background-color: #1c2e4a;}
+
+	@font-face {
+  	font-family: "Manrope";
+  	src: url("Manrope-Light.ttf") format("truetype");}
+	@font-face {
+  	font-family: "ManropeBold";
+  	src: url("Manrope-Bold.ttf") format("truetype");}
+
+	#veggies {
+	background-image: url("veggies.jpg");
+	width: auto;
+	height: 100vh;} 	
+
+	.navbar {
+  	text-align: center;
+  	align-items: center;
+  	flex-wrap: nowrap;
+  	display: flex;
+  	justify-content: space-between;
+  	border-bottom: 1px solid white;
+	margin: 0px 15px 25px 15px;
+  	padding: 15px;
+	font-size: 20px;
+	}
+
+	.left {
+  	text-align: left;
+  	word-spacing: normal;
+  	padding: 15px;}
+
+	.right {
+  	text-align: right;
+  	word-spacing: 15px;
+  	padding: 15px;}
+
+	a {
+  	text-decoration: none;
+  	font-family: "Manrope", sans-serif;
+  	color: white;}
+	
+	a:hover {
+ 	text-decoration: underline;}
+
+	.headingtext {
+	text-align: center;
+	margin-top: 20%;}
+
+	h1 {
+  	font-family: "ManropeBold";
+  	font-size: 64pt;}
+
+	hr {
+ 	width: 450px;}
+
+
+	#flex-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	
+	padding: 0;
+	margin: 0;}
+	
+	li {
+	list-style: none;
+	height: 250px;
+	}
+	
+	.bread {
+	background-color: #111111;
+	}
+
+	.bread img {
+  	float: left;
+  	height: 100%;
+  	margin-right: 75px;
+	}
+
+	.pineapple {
+	text-align: right;
+	background-color: #333333;}
+
+	.pineapple img {
+  	float: right;
+  	height: 100%;
+  	margin-left: 75px;
+	}
+
+	.pasta {
+	background-color: #555555;}
+
+	.pasta img {
+  	float: left;
+  	height: 100%;
+  	margin-right: 75px;
+	}
+	h2 {
+	margin-top: 50px;}
+  </style>
+  </head>
+
+  <body>
+     	<div id="veggies">
+
+	 <div class="navbar">
+	 <div class="left"><a href="#">Freshest</a></div>
+            <div class="right"><a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a></div>
+	 </div>
+	
+	 <div class="headingtext">
+	   <h1>Freshest</h1>
+      	   <hr>
+     	   <p style="font-size: 38">Clean, Healthy, Always Fresh Foods</p>
+	 </div>
+
+     	</div>
+ 
+	  <ul id="flex-container">
+	    <li class="bread">
+	    <img src="bread.jpg" alt="A Loaf Of Bread">
+            <div class="leftbread"><h2>Lorem Ipsum Dolar</h2>
+            <p>Massa vitae tortor condimentum lacinia quis.<br>
+          Mattis rhoncus urna neque viverra justo nec ultrices dui sapien.<br>
+          Egestas sed tempus urna et pharetra pharetra massa.</p>
+	</div>
+    	    </li>
+
+    	    <li  class="pineapple">
+	    <img src="pineapple.jpg" alt="A Pineapple With Sunglasses">
+      	    <h2>Lorem Ipsum Dolar</h2>
+      	    <p>Massa vitae tortor condimentum lacinia quis.<br>
+            Mattis rhoncus urna neque viverra justo nec ultrices dui sapien.<br>
+            Egestas sed tempus urna et pharetra pharetra massa.</p>
+            </li>
+   
+     	    <li  class="pasta">
+	    <img src="pasta.jpg" alt="A Bowl of Pasta">
+	    <h2>Lorem Ipsum Dolar</h2>
+            <p>Massa vitae tortor condimentum lacinia quis.<br>
+            Mattis rhoncus urna neque viverra justo nec ultrices dui sapien.<br>
+            Egestas sed tempus urna et pharetra pharetra massa.</p>
+       	    </li>
+	 </ul>
+      </div>
+
+</body>
+</html>
